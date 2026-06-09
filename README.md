@@ -2,6 +2,22 @@
 
 面向 AI 工程师（Vibe Coding）岗位定制的 Android 求职项目。项目以购物 App 为载体，完成从自然语言需求、端侧推荐、加购、下单、订单状态流转到评价/售后的可演示闭环。
 
+## 📱 应用截图
+
+<div align="center">
+  <img src="screenshots/login.png" width="200" alt="登录页面"/>
+  <img src="screenshots/home.png" width="200" alt="首页"/>
+  <img src="screenshots/ai_assistant.png" width="200" alt="AI助手"/>
+  <img src="screenshots/cart.png" width="200" alt="购物车"/>
+</div>
+
+<div align="center">
+  <img src="screenshots/order.png" width="200" alt="订单列表"/>
+  <img src="screenshots/product_detail.png" width="200" alt="商品详情"/>
+  <img src="screenshots/recommendation.png" width="200" alt="AI推荐"/>
+  <img src="screenshots/user_center.png" width="200" alt="个人中心"/>
+</div>
+
 ## 岗位匹配点
 
 - Android 客户端落地：注册登录、首页商品、AI 推荐、购物车、订单、评论等流程可本地运行。
