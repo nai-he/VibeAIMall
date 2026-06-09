@@ -1,0 +1,139 @@
+# Android
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+*/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Keystore files
+*.jks
+*.keystore
+
+# Local configuration file (SDK location)
+# IMPORTANT: Never commit local.properties with real paths or API keys
+android/shixun/local.properties
+
+# Gradle cache
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Android Studio
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries/
+.idea/libraries/
+.idea/caches/
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/vcs.xml
+.idea/jarRepositories.xml
+*.iws
+
+# IntelliJ
+out/
+
+# KMP / Kotlin Multiplatform
+.kotlin/
+kmp-shared/.gradle/
+kmp-shared/build/
+kmp-shared/.idea/
+
+# iOS / Xcode (for future use)
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.ipa
+Pods/
+.build/
+DerivedData/
+
+# Web / PWA
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.next/
+.nuxt/
+.cache/
+
+# Python (if any scripts exist)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+venv/
+ENV/
+env/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+*.secret
+*.pem
+*.key
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Build outputs
+*.jar
+*.war
+*.ear
+*.nar
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Backup files (created during migration/setup)
+desktop-shortcuts-backup/
+install-packages/
+
+# APK files (should be distributed via GitHub Releases)
+*.apk
+*.aab

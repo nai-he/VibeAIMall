@@ -1,0 +1,19 @@
+{
+  "name": "Vibe智购AI 双端体验版",
+  "short_name": "Vibe智购AI",
+  "description": "Android 和 iPhone 都能试用的 AI 对话购物体验版",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eef3f5",
+  "theme_color": "#0f766e",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./assets/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

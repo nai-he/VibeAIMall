@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withInputStream { stream ->
+        localProperties.load(stream)
+    }
+}
+
+def readAiConfig = { name, fallback ->
+    def propertyValue = localProperties.getProperty(name)
+    if (propertyValue != null && propertyValue.trim().length() > 0) {
+        return propertyValue.trim()
+    }
+    def envName = name.replaceAll('([a-z])([A-Z])', '$1_$2').toUpperCase().replace('.', '_')
+    def envValue = System.getenv(envName)
+    if (envValue != null && envValue.trim().length() > 0) {
+        return envValue.trim()
+    }
+    return fallback
+}
+
+def buildConfigString = { value ->
+    return '"' + value.replace('\\', '\\\\').replace('"', '\\"') + '"'
+}
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+    defaultConfig {
+        applicationId "com.asyyy.shixun"
+        minSdkVersion 15
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField "String", "AI_API_KEY", buildConfigString(readAiConfig('ai.api.key', ''))
+        buildConfigField "String", "AI_API_BASE_URL", buildConfigString(readAiConfig('ai.api.baseUrl', 'https://api.deepseek.com'))
+        buildConfigField "String", "AI_API_MODEL", buildConfigString(readAiConfig('ai.api.model', 'deepseek-v4-flash'))
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    testImplementation 'junit:junit:4.13.2'
+
+    // implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    //implementation 'com.youth.banner:banner:2.2.2'//实在加不上，各种版本试过了
+
+    // 添加 OkHttp 依赖 - 用于网络请求
+    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+}

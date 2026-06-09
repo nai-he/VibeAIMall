@@ -1,0 +1,5 @@
+# Android SDK path stays in your own local.properties.
+# Real AI API config can be added there too. Do not commit the real key.
+ai.api.key=your_api_key_here
+ai.api.baseUrl=https://api.deepseek.com
+ai.api.model=deepseek-v4-flash

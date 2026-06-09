@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f766e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Vibe智购AI">
+  <title>Vibe智购AI 双端体验版</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./assets/app-icon.svg">
+  <link rel="stylesheet" href="./styles.css?v=11">
+</head>
+<body class="locked">
+  <section class="auth-shell" id="authShell">
+    <div class="auth-card">
+      <p class="eyebrow">双端账号入口</p>
+      <h1>Vibe智购AI</h1>
+      <p class="auth-subtitle">注册/登录后进入和 Android 主结构一致的 iPhone PWA 体验版。账号、购物车、订单、评价和 AI 记录都会保存在当前浏览器。</p>
+
+      <div class="auth-tabs">
+        <button class="active" type="button" data-auth-tab="login">登录</button>
+        <button type="button" data-auth-tab="register">注册</button>
+      </div>
+
+      <form class="auth-form active" id="loginForm" data-auth-form="login">
+        <label>手机号/账号<input id="loginAccount" type="text" autocomplete="username" placeholder="请输入账号"></label>
+        <label>密码<input id="loginPassword" type="password" autocomplete="current-password" placeholder="请输入密码"></label>
+        <button type="submit">登录进入</button>
+        <button id="demoLoginBtn" class="secondary-auth" type="button">使用演示账号</button>
+      </form>
+
+      <form class="auth-form" id="registerForm" data-auth-form="register">
+        <label>昵称<input id="registerName" type="text" autocomplete="name" placeholder="例如：求职演示用户"></label>
+        <label>手机号/账号<input id="registerAccount" type="text" autocomplete="username" placeholder="请输入账号"></label>
+        <label>密码<input id="registerPassword" type="password" autocomplete="new-password" placeholder="至少 4 位"></label>
+        <button type="submit">创建账号</button>
+      </form>
+
+      <p class="auth-tip" id="authTip">演示账号可直接进入；也可以注册新账号。</p>
+    </div>
+  </section>
+
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow" id="pageEyebrow">Android / iPhone 双端</p>
+        <h1 id="pageTitle">Vibe智购AI</h1>
+      </div>
+      <button id="installBtn" class="icon-button" type="button">安装</button>
+    </header>
+
+    <section class="view active" data-view="home">
+      <section class="android-titlebar">
+        <img src="./assets/user.png" alt="" aria-hidden="true">
+        <form id="homeSearchForm" class="title-search">
+          <input id="homeSearchInput" type="text" placeholder="AI需求输入：预算3000学习平板">
+          <button type="submit">推荐</button>
+        </form>
+        <button class="title-icon" type="button" data-open-view="assistant" aria-label="打开AI助手">
+          <img src="./assets/message.png" alt="">
+        </button>
+      </section>
+
+      <section class="home-hero">
+        <div>
+          <p class="eyebrow">首页商品流</p>
+          <h2>和 Android 首页一致的商品列表入口</h2>
+          <p>搜索框进入 AI 助手，消息按钮打开对话购物。商品图片、详情、加购都可点击。</p>
+        </div>
+        <button type="button" data-open-view="assistant">打开 AI 助手</button>
+      </section>
+
+      <section class="quick-strip" id="quickRow"></section>
+
+      <section class="list-panel">
+        <div class="section-head">
+          <h2>首页推荐</h2>
+          <button type="button" data-scroll-top>回到顶部</button>
+        </div>
+        <div id="homeProductList" class="product-list"></div>
+      </section>
+    </section>
+
+    <section class="view" data-view="type">
+      <section class="category-page">
+        <div class="category-title">
+          <img src="./assets/user.png" alt="" aria-hidden="true">
+          <strong>商品分类</strong>
+          <button type="button" data-open-view="assistant" aria-label="打开AI助手">
+            <img src="./assets/message.png" alt="">
+          </button>
+        </div>
+        <div class="category-layout">
+          <aside id="typeRail" class="type-rail" aria-label="分类频道"></aside>
+          <section class="type-content">
+            <h2 id="typeHeading">常用分类</h2>
+            <div id="typeShortcutGrid" class="shortcut-grid"></div>
+            <div id="typeProductList" class="product-list compact"></div>
+          </section>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" data-view="community">
+      <section class="discover-ai" data-open-view="assistant">
+        <h2>AI 产品实验室</h2>
+        <p>把用户的一句话需求转成商品推荐、推荐理由和加购动作，演示从需求理解到转化的完整闭环。</p>
+        <span>打开 AI 助手</span>
+      </section>
+
+      <section class="metric-row">
+        <button type="button" data-open-view="type"><strong id="metricProductCount">0</strong><span>商品样本</span></button>
+        <button type="button" data-open-view="orders"><strong>5</strong><span>订单状态</span></button>
+      </section>
+
+      <section class="panel-block">
+        <h2>高频需求场景</h2>
+        <div class="case-list">
+          <button type="button" data-need="预算3000学习平板">预算3000学习平板｜识别预算、品类和学习场景</button>
+          <button type="button" data-need="出差需要续航">出差需要续航｜推荐移动电源并打通加购</button>
+          <button type="button" data-need="送女生生日礼物">送女生生日礼物｜给出主推和备选方案</button>
+        </div>
+      </section>
+
+      <section class="panel-block">
+        <h2>闭环验证</h2>
+        <button class="flow-card" type="button" data-open-view="orders">
+          <strong>AI 推荐 -> 加入购物车 -> 下单 -> 状态流转 -> 评价/售后</strong>
+          <span>订单页支持待付款、待收货、待评价、已完成、退款/售后筛选，面试演示可以直接展示业务链路。</span>
+        </button>
+      </section>
+
+      <section class="panel-block">
+        <h2>产品迭代方向</h2>
+        <div class="iteration-copy">
+          <p>1. Android 端保留真实大模型 API 入口，PWA 端使用端侧规则推荐做稳定演示兜底。</p>
+          <p>2. 增加推荐日志分析，统计需求到加购、下单、评价的转化。</p>
+          <p>3. 后续可扩展多轮偏好记忆、客服问答、跨端共享购物车和更多商品评分因子。</p>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" data-view="cart">
+      <section class="cart-titlebar">
+        <img src="./assets/user.png" alt="" aria-hidden="true">
+        <strong>购物车</strong>
+        <button id="clearCartBtn" type="button">删除</button>
+      </section>
+      <div id="cartList" class="cart-list"></div>
+      <section class="checkout-box">
+        <label>收货人<input id="receiverName" type="text" placeholder="默认：演示用户"></label>
+        <label>收货地址<input id="receiverAddress" type="text" placeholder="例如：厦门市思明区软件园"></label>
+      </section>
+      <section class="cart-bottom">
+        <button id="selectAllBtn" type="button">全选</button>
+        <strong id="cartSummary">合计：¥0</strong>
+        <button id="checkoutBtn" type="button" disabled>去结算</button>
+      </section>
+    </section>
+
+    <section class="view" data-view="user">
+      <section class="user-header">
+        <img src="./assets/jdk9.png" alt="" aria-hidden="true">
+        <div>
+          <h2 id="profileName">Vibe 智购 AI</h2>
+          <p id="profileIntro">智能推荐会员 | 专属购物服务</p>
+          <span id="profileAccount">账号信息</span>
+        </div>
+        <button type="button" aria-label="设置" data-open-view="settings">
+          <img src="./assets/setting.png" alt="">
+        </button>
+      </section>
+
+      <section class="stats-row">
+        <button type="button" data-open-view="logs"><strong id="statAi">0</strong><span>AI推荐</span></button>
+        <button type="button" data-open-view="type"><strong>999</strong><span>店铺关注</span></button>
+        <button type="button" data-open-view="reviews"><strong id="statReviews">0</strong><span>喜欢的内容</span></button>
+        <button type="button" data-open-view="home"><strong id="statHistory">0</strong><span>浏览记录</span></button>
+      </section>
+
+      <section class="order-shortcuts">
+        <button type="button" data-order-shortcut="待付款"><img src="./assets/daifukuan.png" alt=""><b id="orderCountPay">0</b><span>待付款</span></button>
+        <button type="button" data-order-shortcut="待收货"><img src="./assets/daishouhuo.png" alt=""><b id="orderCountReceive">0</b><span>待收货</span></button>
+        <button type="button" data-order-shortcut="待评价"><img src="./assets/daipingjia.png" alt=""><b id="orderCountReview">0</b><span>待评价</span></button>
+        <button type="button" data-order-shortcut="退款/售后"><img src="./assets/shouhou.png" alt=""><b id="orderCountAfterSale">0</b><span>退款/售后</span></button>
+        <button type="button" data-order-shortcut="全部"><img src="./assets/wodedingdan.png" alt=""><b id="orderCountAll">0</b><span>我的订单</span></button>
+      </section>
+
+      <section class="tools-section">
+        <div class="section-head">
+          <h2>工具与服务</h2>
+          <button type="button" data-open-view="orders">查看闭环</button>
+        </div>
+        <div id="toolGrid" class="tool-grid"></div>
+      </section>
+    </section>
+
+    <section class="view secondary-view" data-view="assistant">
+      <button class="back-row" type="button" data-open-view="community">返回发现</button>
+      <section class="chat-panel">
+        <div class="section-head">
+          <div>
+            <h2>AI 对话购物</h2>
+            <p>支持“预算3000学习平板”“就买这个”“买备选1”“去购物车”。</p>
+          </div>
+          <button class="cart-chip" type="button" data-open-view="cart"><span id="cartBadge">0 件</span> 去购物车</button>
+        </div>
+        <div id="chatLog" class="chat-log" aria-live="polite"></div>
+        <form id="chatForm" class="input-row">
+          <input id="chatInput" type="text" autocomplete="off" placeholder="输入需求或购买指令">
+          <button type="submit">发送</button>
+        </form>
+      </section>
+
+      <section class="panel-block">
+        <div class="section-head">
+          <div>
+            <h2>AI 推荐结果</h2>
+            <p id="intentText">等待你的购物需求</p>
+          </div>
+          <button id="buyPrimaryBtn" class="outline-button" type="button" disabled>买主推</button>
+        </div>
+        <div id="recommendList" class="product-grid"></div>
+      </section>
+    </section>
+
+    <section class="view secondary-view" data-view="orders">
+      <button class="back-row" type="button" data-open-view="user">返回我的</button>
+      <section class="panel-block">
+        <h2>订单状态</h2>
+        <div id="orderFlow" class="order-flow"></div>
+        <div id="orderFilters" class="filter-tabs"></div>
+      </section>
+      <section class="panel-block">
+        <div class="section-head">
+          <div>
+            <h2>订单列表</h2>
+            <p id="orderSummary">生成订单后会显示在这里</p>
+          </div>
+        </div>
+        <div id="orderList" class="cart-list"></div>
+      </section>
+    </section>
+
+    <section class="view secondary-view" data-view="reviews">
+      <button class="back-row" type="button" data-open-view="user">返回我的</button>
+      <section class="panel-block">
+        <h2>评价中心</h2>
+        <div id="reviewList" class="cart-list"></div>
+      </section>
+    </section>
+
+    <section class="view secondary-view" data-view="logs">
+      <button class="back-row" type="button" data-open-view="user">返回我的</button>
+      <section class="panel-block">
+        <div class="section-head">
+          <div>
+            <h2>AI 记录</h2>
+            <p>记录推荐、加购、下单动作。</p>
+          </div>
+          <button id="clearLogsBtn" class="outline-button" type="button">清空</button>
+        </div>
+        <div id="aiLogList" class="cart-list"></div>
+      </section>
+    </section>
+
+    <section class="view secondary-view" data-view="game">
+      <button class="back-row" type="button" data-open-view="user">返回我的</button>
+      <section class="game-panel">
+        <div class="section-head">
+          <div>
+            <h2>小游戏</h2>
+            <p>修复为 iPhone 可触控版本：点击开始，用手指拖动飞机接住掉落物。</p>
+          </div>
+          <strong id="gameScore">0</strong>
+        </div>
+        <canvas id="gameCanvas" width="360" height="520"></canvas>
+        <div class="game-actions">
+          <button id="startGameBtn" type="button">开始</button>
+          <button id="resetGameBtn" type="button">重置</button>
+        </div>
+      </section>
+    </section>
+
+    <section class="view secondary-view" data-view="doctor">
+      <button class="back-row" type="button" data-open-view="user">返回我的</button>
+      <section class="panel-block">
+        <h2>问医生</h2>
+        <div class="service-card">
+          <p>演示服务入口已接入：可填写问题并生成本地演示回复，不涉及真实医疗诊断。</p>
+          <form id="doctorForm" class="input-row">
+            <input id="doctorInput" type="text" placeholder="例如：久坐肩颈酸怎么缓解">
+            <button type="submit">咨询</button>
+          </form>
+          <div id="doctorReply" class="service-reply">等待输入问题。</div>
+        </div>
+      </section>
+    </section>
+
+    <section class="view secondary-view" data-view="bind">
+      <button class="back-row" type="button" data-open-view="user">返回我的</button>
+      <section class="panel-block">
+        <h2>用户绑定</h2>
+        <form id="bindForm" class="bind-card">
+          <label>手机号<input id="bindPhone" type="tel" placeholder="请输入手机号"></label>
+          <label>验证码<input id="bindCode" type="text" placeholder="输入 1234 完成演示绑定"></label>
+          <button type="submit">绑定</button>
+        </form>
+        <p id="bindTip" class="auth-tip">演示验证码：1234</p>
+      </section>
+    </section>
+
+    <section class="view secondary-view" data-view="settings">
+      <button class="back-row" type="button" data-open-view="user">返回我的</button>
+      <section class="panel-block">
+        <h2>设置</h2>
+        <div class="settings-list">
+          <button id="logoutBtn" type="button">退出登录</button>
+          <button type="button" data-open-view="logs">查看 AI 记录</button>
+          <button type="button" data-open-view="orders">查看我的订单</button>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <dialog id="productDialog" class="product-dialog">
+    <button id="closeDialogBtn" class="dialog-close" type="button">×</button>
+    <img id="dialogImage" alt="">
+    <h2 id="dialogName"></h2>
+    <p id="dialogMeta"></p>
+    <div id="dialogTags" class="dialog-tags"></div>
+    <p id="dialogReason"></p>
+    <p id="dialogService" class="dialog-service"></p>
+    <div class="dialog-actions">
+      <strong id="dialogPrice"></strong>
+      <button id="dialogBuyBtn" type="button">加入购物车</button>
+      <button id="dialogBuyNowBtn" type="button">立即购买</button>
+    </div>
+  </dialog>
+
+  <dialog id="reviewDialog" class="review-dialog">
+    <button id="closeReviewBtn" class="dialog-close" type="button">×</button>
+    <h2>订单评价</h2>
+    <p id="reviewOrderText">请写下这次购物体验。</p>
+    <div id="ratingButtons" class="rating-buttons">
+      <button class="active" type="button" data-rating="5">5分</button>
+      <button type="button" data-rating="4">4分</button>
+      <button type="button" data-rating="3">3分</button>
+    </div>
+    <textarea id="reviewText" rows="4" placeholder="例如：推荐准确，购物流程完整，体验顺畅。"></textarea>
+    <button id="submitReviewBtn" type="button">提交评价</button>
+  </dialog>
+
+  <dialog id="installDialog" class="install-dialog">
+    <button id="closeInstallBtn" class="dialog-close" type="button" aria-label="关闭">×</button>
+    <p class="eyebrow" id="installPlatform">双端安装</p>
+    <h2 id="installTitle">安装 Vibe智购AI</h2>
+    <p id="installSummary">当前浏览器没有开放网页内安装弹窗，可以按下面方式安装体验。</p>
+    <div id="installSteps" class="install-steps"></div>
+    <div class="install-actions">
+      <a id="apkDownloadLink" href="./downloads/Vibe智购AI-Android-debug.apk" download>下载安卓 APK</a>
+      <button id="copyUrlBtn" type="button">复制当前网址</button>
+    </div>
+    <p class="install-note">提示：安卓网页安装通常需要 Chrome/Edge 菜单里的“安装应用”或“添加到主屏幕”。局域网 HTTP 地址经常不会触发网页按钮的原生安装弹窗。</p>
+  </dialog>
+
+  <div id="toastHost" class="toast-host" aria-live="polite"></div>
+
+  <nav class="bottom-nav">
+    <button class="active" data-view-link="home" type="button"><img src="./assets/main_home.png" alt=""><span>首页</span></button>
+    <button data-view-link="type" type="button"><img src="./assets/main_type.png" alt=""><span>分类</span></button>
+    <button data-view-link="community" type="button"><img src="./assets/main_community.png" alt=""><span>发现</span></button>
+    <button data-view-link="cart" type="button"><img src="./assets/main_cart.png" alt=""><b id="navCartCount" hidden>0</b><span>购物车</span></button>
+    <button data-view-link="user" type="button"><img src="./assets/main_user.png" alt=""><span>我的</span></button>
+  </nav>
+
+  <script src="./app.js?v=11"></script>
+</body>
+</html>
