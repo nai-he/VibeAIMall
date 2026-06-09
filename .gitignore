@@ -137,3 +137,12 @@ install-packages/
 # APK files (should be distributed via GitHub Releases)
 *.apk
 *.aab
+
+# Temporary project files
+FINAL_REPORT.md
+PROJECT_CLEANUP_REPORT.md
+PROJECT_SETUP_REPORT.md
+README_E_DRIVE_SETUP.md
+resume_out/
+*_求职*.docx
+*_简历*.docx

@@ -10,7 +10,7 @@
 
 这是一个将 AI 助手融入购物流程的 Android 商城应用。用户可以通过传统的浏览、搜索方式购物，也可以用自然语言告诉 AI 助手购物需求（如"我想买一台适合学习的平板，预算3000左右"），AI 会解析需求并推荐合适的商品。
 
-项目包含完整的电商基础功能：登录注册、商品浏览、购物车、下单、订单管理等。同时提供了 PWA 版本，支持在 iPhone、Android 和桌面浏览器上直接访问。
+项目包含电商基础功能：登录注册、商品浏览、购物车、下单、订单管理等。同时提供了 PWA 版本，支持在 iPhone、Android 和桌面浏览器上直接访问。
 
 本项目用于学习和求职展示，不是商业级产品。
 
@@ -61,7 +61,7 @@
 - ✅ **一键加购**：从 AI 推荐直接加入购物车
 
 ### 多端支持
-- 📱 **Android App**：完整的原生体验
+- 📱 **Android App**：原生应用体验
 - 🌐 **PWA 版本**：支持 iPhone（Safari）、Android 浏览器、桌面浏览器
 - 🔄 **规划中**：iOS 原生 App（SwiftUI）
 
@@ -133,19 +133,20 @@
 ## 项目结构
 
 ```
-VibeAIMallDual/
+VibeAIMall/
 ├── android/shixun/                 # Android 原生项目
-│   ├── app/src/main/java/com/asyyy/shixun/
-│   │   ├── ai/                     # AI 功能模块
-│   │   │   ├── AiIntentParser      # 意图解析
-│   │   │   ├── RecommendationEngine # 推荐引擎
-│   │   │   ├── AiRemoteAdvisor     # 大模型 API 调用
-│   │   │   └── AiShoppingChatEngine # 对话式购物
-│   │   ├── cart/                   # 购物车
-│   │   ├── home/                   # 首页
-│   │   ├── user/                   # 用户中心
-│   │   ├── data/                   # 数据模型
-│   │   └── AIAssistantActivity     # AI 助手页面
+│   ├── app/
+│   │   └── src/main/java/com/asyyy/shixun/
+│   │       ├── ai/                 # AI 功能模块
+│   │       │   ├── AiIntentParser.java          # 意图解析
+│   │       │   ├── RecommendationEngine.java    # 推荐引擎
+│   │       │   ├── AiRemoteAdvisor.java         # 大模型 API 调用
+│   │       │   └── AiShoppingChatEngine.java    # 对话式购物
+│   │       ├── cart/               # 购物车模块
+│   │       ├── home/               # 首页模块
+│   │       ├── user/               # 用户中心模块
+│   │       └── AIAssistantActivity.java # AI 助手页面
+│   ├── build.gradle
 │   └── local.properties.example    # API Key 配置示例
 ├── web-pwa/                        # PWA 版本
 │   ├── index.html
@@ -266,7 +267,7 @@ npx http-server -p 8080
 
 ### 30 秒项目介绍
 
-"这是一个 Android 购物助手项目。除了传统电商的浏览、加购、下单功能，我加入了 AI 助手，用户可以用自然语言描述需求，AI 会解析意图并推荐商品。技术上，我用 Java 实现了完整的商城业务，用 SQLite 管理本地数据，用 OkHttp 对接大模型 API。为了展示方便，还做了一个 PWA 版本，支持 iPhone 和浏览器访问。"
+"这是一个 Android 购物助手项目。除了传统电商的浏览、加购、下单功能，我加入了 AI 助手，用户可以用自然语言描述需求，AI 会解析意图并推荐商品。技术上，我用 Java 实现了商城业务流程，用 SQLite 管理本地数据，用 OkHttp 对接大模型 API。为了展示方便，还做了一个 PWA 版本，支持 iPhone 和浏览器访问。"
 
 ### 重点讲解内容
 
