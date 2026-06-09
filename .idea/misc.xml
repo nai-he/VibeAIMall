@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/drawable/biankuang.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/drawable/cart_button_selector.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/activity_comment_list.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/activity_dingdan.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/activity_link.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/activity_m.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/activity_main2.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/activity_main3.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/activity_order_list.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/activity_register.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/activity_success.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/activity_success2.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/activity_success3.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/cart_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/comment_dialog.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/comment_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/community_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/doctor.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/fragment_cart.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/fragment_community.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/fragment_home.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/fragment_user.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/goods_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/item_layout.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/item_my_order.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/item_order.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/kefu.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/lbt.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/my_dialog.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/p1.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/p2.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/recycleview_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/JD/JD/JD/shixun/app/src/main/res/layout/user_item1.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/activity_comment_list.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/activity_dingdan.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/activity_link.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/activity_m.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/activity_main3.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/activity_my_order.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/activity_order_list.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/activity_success.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/activity_success2.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/activity_success3.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/cart_item.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/comment_detail_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/comment_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/comment_item.xml" value="0.12082066869300911" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/community_item.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/doctor.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/fragment_cart.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/fragment_community.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/fragment_user.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/goods_item.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/item_layout.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/item_my_order.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/item_order.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/kefu.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/lbt.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/my_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/p1.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/p2.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/pb1.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/pb2.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/play1.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/play2.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/recycleview_item.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/titlebar.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/tuichu.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/type_goods_detail.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/type_grid.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/type_grid_item1.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/type_home.xml" value="0.2453125" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/user_item.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/finally/JD/JD/JD/shixun/app/src/main/res/layout/user_item1.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/AndroidManifest.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_dingdan.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_link.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_login.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_m.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_main.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_main2.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_main3.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_my_order.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_order_list.xml" value="0.22644927536231885" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_register.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_success.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_success2.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_success3.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/cart_item.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/community_item.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/doctor.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/fragment_cart.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/fragment_community.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/fragment_home.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/fragment_user.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/goods_item.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/item_layout.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/item_my_order.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/item_order.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/kefu.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/lbt.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/my_dialog.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/p1.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/p2.xml" value="0.22644927536231885" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/pb1.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/pb2.xml" value="0.22644927536231885" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/play1.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/play2.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/recycleview_item.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/titlebar.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/tuichu.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/type_goods_detail.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/type_grid.xml" value="0.18568840579710144" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/type_grid_item1.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/type_home.xml" value="0.18568840579710144" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/user_item.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/user_item1.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/jd11/JD (11)/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_dingdan.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_login.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_m.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_main.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_main3.xml" value="0.176" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_register.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_success.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/cart_item.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/community_item.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/fragment_cart.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/fragment_community.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/fragment_home.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/fragment_user.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/goods_item.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/my_dialog.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/titlebar.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/type_goods_detail.xml" value="0.2" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/type_grid.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/type_grid_item1.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/type_home.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (3)/JD/JD/shixun/app/src/main/res/layout/user_item.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_dingdan.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_login.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_m.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_main.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_main2.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_main3.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_register.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_success.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_success2.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/cart_item.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/community_item.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/fragment_cart.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/fragment_community.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/fragment_home.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/fragment_user.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/goods_item.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/item_layout.xml" value="0.18659420289855072" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/kefu.xml" value="0.18659420289855072" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/my_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/titlebar.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/type_goods_detail.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/type_grid.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/type_grid_item1.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/type_home.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/user_item.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/user_item1.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/drawable/ic_baseline_delete_24dp.xml" value="0.1935" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/drawable/place_buy_btn.xml" value="0.241" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/drawable/type_text_selector.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_customer_service.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_dingdan.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_link.xml" value="0.12" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_login.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_m.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_main2.xml" value="0.15053763440860216" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_main3.xml" value="0.14840989399293286" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_register.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_success.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_success2.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/activity_success3.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/cart_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/community_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/doctor.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/fragment_cart.xml" value="0.1609375" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/fragment_community.xml" value="0.10408921933085502" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/fragment_home.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/fragment_user.xml" value="0.15613382899628253" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/goods_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/item_layout.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/item_order.xml" value="0.270935960591133" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/kefu.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/lbt.xml" value="0.12" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/my_dialog.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/p1.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/p2.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/pb1.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/pb2.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/play1.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/play2.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/recycleview_item.xml" value="0.23385416666666667" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/seletor_dot.xml" value="0.22554347826086957" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/titlebar.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/tuichu.xml" value="0.2" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/type_goods_detail.xml" value="0.128" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/type_grid.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/type_grid_item1.xml" value="0.1609375" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/type_home.xml" value="0.1609375" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/user_item.xml" value="0.1609375" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/user_item1.xml" value="0.1609375" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD (5)/JD (4)/JD (3)/JD/JD/shixun/app/src/main/res/layout/whter.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/drawable/biankuang.xml" value="0.1205" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/drawable/bottom_button_text_selector.xml" value="0.1205" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/drawable/cart_button_selector.xml" value="0.1205" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/drawable/cb_checked.xml" value="0.1205" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/drawable/community_button_selector.xml" value="0.1205" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/drawable/search_home_shape.xml" value="0.1205" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/activity_dingdan.xml" value="0.109375" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/activity_m.xml" value="0.109375" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/activity_main.xml" value="0.10235507246376811" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/activity_main2.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/activity_success.xml" value="0.10235507246376811" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/cart_item.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/community_item.xml" value="0.10235507246376811" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/fragment_cart.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/fragment_community.xml" value="0.10235507246376811" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/fragment_user.xml" value="0.2" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/goods_item.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/titlebar.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/type_goods_detail.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/type_grid.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/type_grid_item1.xml" value="0.1" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/type_home.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/JD/shixun/app/src/main/res/layout/user_item.xml" value="0.10840932117527863" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/activity_dingdan.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/activity_m.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/activity_success.xml" value="0.2" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/cart_item.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/community_item.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/fragment_cart.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/fragment_community.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/fragment_home.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/fragment_user.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/goods_item.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/my_dialog.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/titlebar.xml" value="0.264" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/type_goods_detail.xml" value="0.2" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/type_grid.xml" value="0.16302083333333334" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/type_grid_item1.xml" value="0.264" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/type_home.xml" value="0.2" />
+        <entry key="..\:/Users/13174/Desktop/nn/JD/shixun/app/src/main/res/layout/user_item.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
