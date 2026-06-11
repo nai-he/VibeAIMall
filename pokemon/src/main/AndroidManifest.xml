@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.yurset.wiipm">
+
+    <application>
+        <activity
+                android:name=".main.Activity_Main"
+                android:configChanges="orientation"
+                android:exported="false"
+                android:hardwareAccelerated="false"
+                android:label="@string/wiipm_app_name"
+                android:screenOrientation="landscape"
+                android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+    </application>
+
+</manifest>

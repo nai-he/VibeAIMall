@@ -1,0 +1,24 @@
+top.tunm.xmut.tunmpvz
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+raw bgm
+raw bgmfight
+raw bomb
+raw bomb1
+raw boom3
+raw click
+raw dight
+raw ele
+raw fight
+raw fly
+raw get
+raw newcard
+raw tu
+raw up
+string app_name
+style AppTheme

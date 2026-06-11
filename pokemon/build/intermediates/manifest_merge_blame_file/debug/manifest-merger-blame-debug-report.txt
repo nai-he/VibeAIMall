@@ -1,0 +1,33 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yurset.wiipm"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\13174\Desktop\JD\JD\JD\shixun\pokemon\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\13174\Desktop\JD\JD\JD\shixun\pokemon\src\main\AndroidManifest.xml
+10
+11    <application>
+11-->C:\Users\13174\Desktop\JD\JD\JD\shixun\pokemon\src\main\AndroidManifest.xml:4:5-13:19
+12        <activity
+12-->C:\Users\13174\Desktop\JD\JD\JD\shixun\pokemon\src\main\AndroidManifest.xml:5:9-12:78
+13            android:name="com.yurset.wiipm.main.Activity_Main"
+13-->C:\Users\13174\Desktop\JD\JD\JD\shixun\pokemon\src\main\AndroidManifest.xml:6:17-51
+14            android:configChanges="orientation"
+14-->C:\Users\13174\Desktop\JD\JD\JD\shixun\pokemon\src\main\AndroidManifest.xml:7:17-52
+15            android:exported="false"
+15-->C:\Users\13174\Desktop\JD\JD\JD\shixun\pokemon\src\main\AndroidManifest.xml:8:17-41
+16            android:hardwareAccelerated="false"
+16-->C:\Users\13174\Desktop\JD\JD\JD\shixun\pokemon\src\main\AndroidManifest.xml:9:17-52
+17            android:label="@string/wiipm_app_name"
+17-->C:\Users\13174\Desktop\JD\JD\JD\shixun\pokemon\src\main\AndroidManifest.xml:10:17-55
+18            android:screenOrientation="landscape"
+18-->C:\Users\13174\Desktop\JD\JD\JD\shixun\pokemon\src\main\AndroidManifest.xml:11:17-54
+19            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+19-->C:\Users\13174\Desktop\JD\JD\JD\shixun\pokemon\src\main\AndroidManifest.xml:12:17-75
+20    </application>
+21
+22</manifest>

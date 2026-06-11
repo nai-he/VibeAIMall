@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="top.tunm.xmut.tunmpvz" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="29" />
+
+    <application>
+        <activity
+            android:name="top.tunm.xmut.tunmpvz.MainActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

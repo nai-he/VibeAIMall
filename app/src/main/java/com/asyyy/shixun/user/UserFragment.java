@@ -17,6 +17,7 @@ import com.asyyy.shixun.play.LinkActivity;
 import com.asyyy.shixun.play.PeachActivity;
 import com.asyyy.shixun.play.Plane;
 import com.asyyy.shixun.play.SettingActivity;
+import top.tunm.xmut.tunmpvz.MainActivity;
 
 public class UserFragment extends BaseFragment {
     private GridView userTools;
@@ -40,12 +41,12 @@ public class UserFragment extends BaseFragment {
         int[] icons = {
                 R.drawable.tools1, R.drawable.wodedingdan, R.drawable.main_cart_press, R.drawable.daipingjia,
                 R.drawable.jdk4, R.drawable.fj, R.drawable.tools4, R.drawable.main_user_press,
-                R.drawable.tools9, R.drawable.tools10, R.drawable.tools11, R.drawable.tools12
+                R.drawable.tools9, R.drawable.tools10, R.drawable.tools11, R.drawable.fj
         };
         String[] names = {
                 "AI助手", "我的订单", "购物车", "评价中心",
                 "退出登录", "小游戏", "问医生", "用户绑定",
-                "AI记录", "预约服务", "拼购", "小程序"
+                "AI记录", "预约服务", "拼购", "植物大战僵尸"
         };
         UserToolsAdapter adapter = new UserToolsAdapter(mContext, icons, names);
         userTools.setAdapter(adapter);
@@ -86,6 +87,9 @@ public class UserFragment extends BaseFragment {
                     break;
                 case 10:
                     intent = new Intent(mContext, Lb1.class);
+                    break;
+                case 11:
+                    intent = new Intent(mContext, MainActivity.class);
                     break;
                 default:
                     return;

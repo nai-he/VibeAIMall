@@ -86,5 +86,14 @@
             android:name=".type.CommentListActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!-- 口袋妖怪游戏 -->
+        <activity
+            android:name="com.yurset.wiipm.main.Activity_Main"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
     </application>
 </manifest>
