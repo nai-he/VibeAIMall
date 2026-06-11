@@ -16,14 +16,14 @@
 
 ## 游戏截图
 
-### 游戏场景1 - 白天草地
-![游戏场景1](screenshots/pvz_screenshot_1.jpg)
+### 孤寒开场动画
+![开场Logo](screenshots/pvz_game_1.png)
 
-### 游戏场景2 - 夜晚关卡
-![游戏场景2](screenshots/pvz_screenshot_2.jpg)
+### 游戏菜单界面
+![游戏菜单](screenshots/pvz_game_2.png)
 
-### 游戏开场CG
-![开场动画](screenshots/pvz_screenshot_3.jpg)
+### 游戏实战画面
+![游戏玩法](screenshots/pvz_game_3.png)
 
 ## 技术栈
 
