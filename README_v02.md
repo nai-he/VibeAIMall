@@ -14,15 +14,23 @@
 ### 游戏入口
 打开应用 → 我的页面 → 点击"植物大战僵尸"
 
-## 截图
+## 游戏截图
 
-![植物大战僵尸游戏](screenshots/pvz_game.png)
+### 孤寒开场动画
+![孤寒Logo](screenshots/pvz_logo.png)
+
+### 游戏菜单
+![游戏菜单](screenshots/pvz_menu.png)
+
+### 游戏实况
+![游戏玩法](screenshots/pvz_current.png)
 
 ## 技术栈
 
 - **游戏引擎**：Cocos2D-Android
 - **语言**：Java
 - **最低SDK**：API 16 (Android 4.1)
+- **图片资源**：1697张完整游戏素材
 
 ## 版本说明
 
@@ -48,7 +56,7 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 ```
 shixun/
 ├── app/           # 主应用模块
-├── pvz/           # 植物大战僵尸游戏模块
+├── pvz/           # 植物大战僵尸游戏模块（1697张图片资源）
 └── pokemon/       # 口袋妖怪模块
 ```
 
